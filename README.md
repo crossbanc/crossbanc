@@ -30,8 +30,8 @@ This is one example of how crossbanc provides you with access.
 </br>
 Finance is a language, its words are the same although each of us can communicate it differently or be at odds with others when using it. 
 </br>
-crossbanc provides with speed the same words and more across asset classes. 
 </br>
+crossbanc provides with speed the same words and more across asset classes. 
 </br>
 Read it easily on crossbanc.
 </p>
@@ -40,14 +40,14 @@ Read it easily on crossbanc.
 </br>
 </br>
 <p>
-crossbanc is an attempt to align both responsibilities. 
+" crossbanc is an attempt to align both responsibilities. The journey will be challenging and the outcome is uncertain. 
 </br>
-The journey will be challenging and the outcome is uncertain. It can only avoid debate on its economic value by staying factually relevant.
+It can only avoid debate on its economic value by staying factually relevant. "
 </br>
 </br>
 Regardless of whether an investment is for the immediate, short, or long term, a trade in the secondary market is typically the starting point.
 </br>
-Finding new and equal ways to help you and I understand and be able to comphrend what is happening each day is a critical challenge of our time. 
+Finding new and equal ways to help you and I understand and be able to recongise what is happening each day is a critical challenge of our time. 
 </br>
 </br>
 You can download the application from the various App Stores when available.
