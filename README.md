@@ -1,5 +1,4 @@
 # Introducing crossbanc
-</br>
 Singapore, 9 August 2023.
 </br>
 </br>
