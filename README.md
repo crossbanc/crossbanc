@@ -18,7 +18,7 @@ Soon, crossbanc will be available on your mobile phone, allowing you to easily s
 The outcome of a reasoned judgement can be whether you agree with the utopians and (or) take advantage of such opportunities. 
 </br>
 </br>
-This is one example of how crossbanc provides you with access.
+This is one example of how crossbanc provides you with access. Details are in the application.
 </p>
 </br></br>
 <ins>Reducing our carbon footprint</ins>
