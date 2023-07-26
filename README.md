@@ -4,9 +4,7 @@ Singapore, 9 August 2023.
 </br>
 </br>
 </br>
-In the 4Q of 2022, work on crossbanc, 
-</br>
-a financial information services application began with some responsibilities in mind.
+In the 4Q of 2022, work on crossbanc, a financial information services application began with some responsibilities in mind.
 </br>
 </br>
 </br>
