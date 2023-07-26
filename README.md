@@ -25,7 +25,7 @@ This is one example of how crossbanc provides you with access.
 </br>
 </br>
 <p>
-" Turning on a computer, driving a car, charging a mobile phone and other things we do at home and at work contributes to global warming more than any other " 
+" Turning on a computer, driving a car, charging a mobile phone and other things we do at home and at work contributes to global warming more than any other. " 
 </br>
 </br>
 Finance is a language, its words are the same although each of us can communicate it differently or be at odds with others when using it. 
