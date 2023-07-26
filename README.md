@@ -28,12 +28,11 @@ crossbanc provides with speed the same words and more across asset classes.
 &nbsp;
 &nbsp;
 Read it easily on crossbanc.
-
 &nbsp;
 &nbsp;
 
 Factually relevant
-
+&nbsp;
 crossbanc is an attempt to align both responsibilities globally. The journey will be challenging and the outcome is uncertain. 
 It can only avoid debate on its economic value by staying factually relevant.
 &nbsp;
