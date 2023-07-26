@@ -12,8 +12,7 @@ In the 4Q of 2022, work on crossbanc, a financial information services applicati
 Providing access
 </br>
 <p>
-“ Democratized finance requires that some people make reasoned judgements on the behalf of others [yet in the view] of today’s utopians, 
-democratizing finance = access + decentralization. ”
+“ Democratized finance requires that some people make reasoned judgements on the behalf of others yet in the view of today’s utopians, democratizing finance = access + decentralization. ”
 
 Soon, crossbanc will be available on your mobile phone, allowing you to easily search for what can theoretically be known as market anomalies. 
 The outcome of a reasoned judgement can be whether you agree with the utopians or take advantage of such opportunities. 
