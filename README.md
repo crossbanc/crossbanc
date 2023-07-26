@@ -7,24 +7,30 @@ In the 4Q of 2022, work on crossbanc, a financial information services applicati
 </br>
 </br>
 </br>
-
-Providing access
+<ins>Providing access</ins>
 </br>
 <p>
 “ Democratized finance requires that some people make reasoned judgements on the behalf of others yet in the view of today’s utopians, democratizing finance = access + decentralization. ”
-
+</br>
+</br>
 Soon, crossbanc will be available on your mobile phone, allowing you to easily search for what can theoretically be known as market anomalies. 
-The outcome of a reasoned judgement can be whether you agree with the utopians or take advantage of such opportunities. 
-
-If successful, this is one example of how crossbanc provides you with access.
+</br>
+The outcome of a reasoned judgement can be whether you agree with the utopians and (or) take advantage of such opportunities. 
+</br>
+</br>
+This is one example of how crossbanc provides you with access.
 </p>
 </br>
-<p>
-Reducing our carbon footprint
+</br>
+</br>
+<ins>Reducing our carbon footprint</ins>
+</br>
 </br>
 " Turning on a computer, driving a car, charging a mobile phone and other things we do at home and at work contributes to global warming more than any other " 
+</br>
+</br>
 Finance is a language, its words are the same although each of us can communicate it differently or be at odds with others when using it. 
-
+</br>
 crossbanc provides with speed the same words and more across asset classes. 
 </br>
 </br>
