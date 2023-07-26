@@ -3,12 +3,12 @@ Singapore, 9 August 2023.
 </br>
 </br>
 </br>
+<p>
 In the 4Q of 2022, work on crossbanc, a financial information services application began with some responsibilities in mind.
-</br>
-</br>
-</br>
+</p>
+</br></br>
 <ins>Providing access</ins>
-</br>
+</br></br>
 <p>
 “ Democratized finance requires that some people make reasoned judgements on the behalf of others yet in the view of today’s utopians, democratizing finance = access + decentralization. ”
 </br>
@@ -20,12 +20,11 @@ The outcome of a reasoned judgement can be whether you agree with the utopians a
 </br>
 This is one example of how crossbanc provides you with access.
 </p>
-</br>
-</br>
-</br>
+</br></br>
 <ins>Reducing our carbon footprint</ins>
 </br>
 </br>
+<p>
 " Turning on a computer, driving a car, charging a mobile phone and other things we do at home and at work contributes to global warming more than any other " 
 </br>
 </br>
@@ -36,15 +35,20 @@ crossbanc provides with speed the same words and more across asset classes.
 </br>
 Read it easily on crossbanc.
 </p>
+</br></br>
+<ins>Factually relevant</ins>
+</br>
 </br>
 <p>
-Factually relevant
+crossbanc is an attempt to align both responsibilities. 
 </br>
-crossbanc is an attempt to align both responsibilities globally. The journey will be challenging and the outcome is uncertain. 
-It can only avoid debate on its economic value by staying factually relevant.
-&nbsp;
+The journey will be challenging and the outcome is uncertain. It can only avoid debate on its economic value by staying factually relevant.
+</br>
+</br>
 Regardless of whether an investment is for the immediate, short, or long term, a trade in the secondary market is typically the starting point.
-Finding new and equal ways to help you and I recognize opportunities is a critical challenge of our time. 
-&nbsp;
-Do download the application from the various App Stores when available.
+</br>
+Finding new and equal ways to help you and I understand and be able to comphrend what is happening each day is a critical challenge of our time. 
+</br>
+</br>
+You can download the application from the various App Stores when available.
 </p>
