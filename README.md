@@ -24,7 +24,10 @@ Reducing our carbon footprint
 " Turning on a computer, driving a car, charging a mobile phone and other things we do at home and at work contributes to global warming more than any other " 
 Finance is a language, its words are the same although each of us can communicate it differently or be at odds with others when using it. 
 &nbsp;
-crossbanc provides with speed the same words and more across asset classes. Read it easily on crossbanc.
+crossbanc provides with speed the same words and more across asset classes. 
+&nbsp;
+&nbsp;
+Read it easily on crossbanc.
 
 &nbsp;
 &nbsp;
