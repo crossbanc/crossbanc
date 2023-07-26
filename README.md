@@ -34,9 +34,7 @@ Details are in the application.
 Finance is like a language, its words are the same although each of us can communicate it differently or be at odds with others when using it. 
 <br />
 <br />
-crossbanc provides with speed the same words and more across asset classes. 
-<br />
-Read it easily on crossbanc.
+Read it easily on crossbanc. crossbanc provides with speed the same words and more across asset classes.
 </p>
 <br />
 <br />
