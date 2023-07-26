@@ -59,4 +59,3 @@ You can download the application from the various App Stores when available.
 </p>
 <br />
 <br />
-<p align="center">[ Introducing crossbanc ] | App Features | Contact Us </p> 
