@@ -52,3 +52,6 @@ Finding new and equal ways to help you and I understand and be able to comphrend
 </br>
 You can download the application from the various App Stores when available.
 </p>
+</br>
+</br>
+<p align="center">[ Introducing crossbanc ] | App Features | Contact Us </p> 
