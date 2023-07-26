@@ -5,19 +5,16 @@
         h1 {text-align: left; font-family: Georgia, serif;}
         p {text-align: left; font-family: Georgia, serif;}
         div {text-align: left; font-family: Georgia, serif;}
-        .column {float: left;}
-        .left {width: 30%;}
-        .middle {width: 50%;}
-        .right {width: 20%;}
-        .row:after {content: ""; display: table; clear: both;}
+        .box {display: flex; height: 400px;}
+        .left {width: 35%;}
+        .middle {width: 65%;}
 </style>
 </head>
 
 <body>
-    <div class="row">
-
-        <div class="colum left" style="background-color:#FFFFFF;"></div>
-        <div class="column middle" style="background-color:#FFFFFF;">
+    <div class="box">
+        <section class="left"></section>
+        <aside class="middle" style="background-color:#FFFFFF;">
             <h1>Introducing crossbanc</h1> &nbsp;  
             <p> Singapore, 9 August 2023.</p> &nbsp;&nbsp;&nbsp;
             <p> In the 4Q of 2022, work on crossbanc, a financial information services application began with some responsibilities in mind.</p> &nbsp;&nbsp;
@@ -42,11 +39,8 @@
                 Finding new and equal ways to help you and I understand and be able to recognize what is happening each day without each of us unnecessarily repeating the same process is a critical challenge of our time. &nbsp;
                 You can download the application from the various App Stores when available.
             </p> &nbsp;&nbsp;
-
             <p text-align="center">[ Introducing crossbanc ] | App Features | Contact Us </p> 
-        </div>
-        <div class="colum right" style="background-color:#FFFFFF;"></div>
-        
+        </aside>
     </div>
 </body>
 </html>
