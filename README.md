@@ -49,6 +49,7 @@ It can only avoid debate on its economic value by staying factually relevant. "
 </br>
 Regardless of whether an investment is for the immediate, short, or long term, a trade in the secondary market is typically the starting point.
 </br>
+</br>
 Finding new and equal ways to help you and I understand and be able to recognize what is happening each day without each of us unnecessarily repeating the same process is a critical challenge of our time.
 </br>
 </br>
