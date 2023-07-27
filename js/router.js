@@ -16,13 +16,13 @@ const routes = {
     },
     "/features": {
         template: "/pages/features.html",
-        title: "App Features",
-        description: "crossbanc was built to provide access, help reduce carbon footprint and by staying factually relevant. We showcase some of the features on this page.",
+        title: "Features of crossbanc",
+        description: "See features of crossbanc on this page.",
     },
     "/whitepaper": {
         template: "/pages/whitepaper.html",
-        title: "Whitepaper",
-        description: "",
+        title: "Whitepaper(s) on crossbanc",
+        description: "crossbanc was built to provide access to you and I, as well as help reduce our carbon footprint. To do this, crossbanc stays factually relevant.",
     },
 };
 
