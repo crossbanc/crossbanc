@@ -25,9 +25,13 @@ jobs:
     - name: Commit and push
       run: |
         if [[ `git status --porcelain sitemap.xml` ]]; then
-          git commit --allow-empty --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+
           git add sitemap.xml
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git tag -a -m "Generate Sitemap Please." <tag> <commit hash>
           git commit -m "Automated sitemap update" sitemap.xml
           git push
+          
         fi
 
