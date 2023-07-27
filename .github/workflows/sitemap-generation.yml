@@ -29,7 +29,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git add sitemap.xml
           git commit -m "Automated sitemap update" sitemap.xml
-          git tag -a -m "Generate Sitemap Please." <tag> <commit hash>
           git push
         fi
 
