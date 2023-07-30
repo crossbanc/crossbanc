@@ -13,6 +13,10 @@
             
             html { font-size: 16px; }
 
+            @-ms-viewport{
+                width: device-width;
+            }
+
             @media screen and (min-width: 25em) {
                 html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
             }
@@ -22,6 +26,7 @@
             @media screen and (min-width: 50em){
                 html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
             }
+            
 
             td {
                 padding-bottom: 3rem;
