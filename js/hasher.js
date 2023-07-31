@@ -9,27 +9,27 @@ document.addEventListener("click", (e) => {
 
 
 const hashes = {
-    "/": {
+    "/whitepaper": {
         template: "/pages/feedback.html",
         title: "Whitepaper(s) on crossbanc | Questions",
         description: "Reach out to crossbanc with your questions.",
     },
-    "/interpretation": {
+    "/whitepaper/interpretation": {
         template: "/pages/interpretation.html",
         title: "Whitepaper(s) on crossbanc | Interpretation",
         description: "Defined terms used to communicate crossbanc.",
     },
-    "/statements": {
+    "/whitepaper/statements": {
         template: "/pages/statements.html",
         title: "Whitepaper(s) on crossbanc | Questions Presented",
         description: "Problem Statement(s) perceived and expected to be solved by crossbanc.",
     },
-    "/basis": {
+    "/whitepaper/basis": {
         template: "/pages/basis.html",
         title: "Whitepaper(s) on crossbanc | Basis for conclusions",
         description: "Basis for conclusions on technology adoptions to the benefit of crossbanc stakeholders.",
     },
-    "/disclaimer": {
+    "/whitepaper/disclaimer": {
         template: "/pages/disclaimer.html",
         title: "Whitepaper(s) on crossbanc | Disclaimer",
         description: "Disclaimer in whitepaper(s) regarding crossbanc.",
@@ -48,7 +48,7 @@ const route2 = (event) => {
 const hashlocationHandler = async () => {
     var location = window.location.pathname; 
     if (location.length == 0) {
-        location = "/";
+        location = "/whitepaper";
     }
     const hroute = hashes[location];
     const hhtml = await fetch(hroute.template).then((response) => response.text());
