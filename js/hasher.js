@@ -1,4 +1,9 @@
 const hashes = {
+    "/": {
+        template: "/pages/reachus.html",
+        title: "Whitepaper(s) on crossbanc | Questions",
+        description: "Reach out to crossbanc with your questions.",
+    },
     interpretation: {
         template: "/pages/hashes/interpretation.html",
         title: "Whitepaper(s) on crossbanc | Interpretation",
@@ -25,7 +30,7 @@ const hashes = {
 const hashlocationHandler = async () => {
     var location = window.location.hash.replace("#", "");
     if (location.length == 0) {
-        location = "interpretation";
+        location = "/";
     }
     const route = hashes[location] || hashes["404"];
     const html = await fetch(route.template).then((response) => response.text());
