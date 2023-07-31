@@ -32,7 +32,7 @@ const hashlocationHandler = async () => {
     if (hashlocation == undefined || hashlocation == null || hashlocation.length == 0) {
         hashlocation = "/"
     }
-    const hash = hashes[hashlocation] || hashes["404"];
+    const hash = hashes[hashlocation];
     const hhtml = await fetch(hash.template).then((response) => response.text());
         
     document.getElementById("hashcontent").innerHTML = hhtml;

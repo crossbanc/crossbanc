@@ -40,7 +40,7 @@ const locationHandler = async () => {
     if (location.length == 0) {
         location = "/";
     }
-    const route = routes[location] || routes["404"];
+    const route = routes[location];
     const html = await fetch(route.template).then((response) => response.text());
     document.getElementById("content").innerHTML = html;
     document.title = route.title;
