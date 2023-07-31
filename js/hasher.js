@@ -23,8 +23,8 @@ const hashes = {
 
 
 const hashlocationHandler = async () => {
-    var hashlocation = window.location.hash.replace("#", "");   
-    if (hashlocation == undefined || hashlocation == null)
+    const hashlocation = window.location.hash.replace("#", "");   
+    if (hashlocation == undefined || hashlocation == null || hashlocation.length == 0)
     {
         document.getElementById("hashcontent").innerHTML = "/pages/reachus.html";
         document.title = "Whitepaper(s) on crossbanc | Questions";
