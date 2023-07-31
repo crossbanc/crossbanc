@@ -21,8 +21,8 @@ const routes = {
     },
     "/whitepaper": {
         template: "/pages/whitepaper.html",
-        title: "Whitepaper(s) on crossbanc",
-        description: "Technical discussion(s) on crossbanc.",
+        title: "Whitepaper on crossbanc",
+        description: "Technical discussion(s) on crossbanc. Reach out to crossbanc with your questions.",
     },
 };
 
@@ -36,7 +36,7 @@ const route = (event) => {
 
 
 const locationHandler = async () => {
-    const location = window.location.pathname; 
+    var location = window.location.pathname; 
     if (location.length == 0) {
         location = "/";
     }
