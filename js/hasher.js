@@ -30,18 +30,17 @@ const hashes = {
 const hashlocationHandler = async () => {
     var hashlocation = window.location.hash.replace("#", "");   
     if (hashlocation == undefined || hashlocation == null || hashlocation.length == 0) {
-        hashlocation = "/feedback"
+        hashlocation = "interpretation"
     }
     const hash = hashes[hashlocation];
     const hhtml = await fetch(hash.template).then((response) => response.text());
         
-    document.getElementById("hashcontent").innerHTML = hhtml;
+    document.getElementById("hcontent").innerHTML = hhtml;
     document.title = hash.title;
     document
         .querySelector('meta[name="description"]')
-        .setAttribute("hashcontent", hash.description);
+        .setAttribute("content", hash.description);
 };
-
 
 window.addEventListener("hashchange", hashlocationHandler);
 hashlocationHandler();
