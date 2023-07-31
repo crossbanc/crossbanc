@@ -46,7 +46,7 @@ const route2 = (event) => {
 
 
 const hashlocationHandler = async () => {
-    const hlocation = window.location.pathname; 
+    var hlocation = window.location.pathname; 
     if (hlocation.length == 0) {
         hlocation = "/feedback";
     }
