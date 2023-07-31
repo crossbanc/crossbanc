@@ -1,9 +1,4 @@
 const hashes = {
-    "/": {
-        template: "/pages/reachus.html",
-        title: "Whitepaper(s) on crossbanc | Questions",
-        description: "Reach out to crossbanc with your questions.",
-    },
     interpretation: {
         template: "/pages/hashes/interpretation.html",
         title: "Whitepaper(s) on crossbanc | Interpretation",
@@ -31,15 +26,23 @@ const hashlocationHandler = async () => {
     var hashlocation = window.location.hash.replace("#", "");   
     if (hashlocation == undefined || hashlocation == null)
     {
-        hashlocation = "/";
+        document.getElementById("hashcontent").innerHTML = "/pages/reachus.html";
+        document.title = "Whitepaper(s) on crossbanc | Questions";
+        document
+            .querySelector('meta[name="description"]')
+            .setAttribute("hashcontent", "Reach out to crossbanc with your questions.");
     }
-    const hash = hashes[hashlocation] || hashes["404"];
-    const hhtml = await fetch(hash.template).then((response) => response.text());
-    document.getElementById("hashcontent").innerHTML = hhtml;
-    document.title = hash.title;
-    document
-        .querySelector('meta[name="description"]')
-        .setAttribute("hashcontent", hash.description);
+    else
+    {
+        const hash = hashes[hashlocation] || hashes["404"];
+        const hhtml = await fetch(hash.template).then((response) => response.text());
+        
+        document.getElementById("hashcontent").innerHTML = hhtml;
+        document.title = hash.title;
+        document
+            .querySelector('meta[name="description"]')
+            .setAttribute("hashcontent", hash.description);
+    }
 };
 
 window.addEventListener("hashchange", hashlocationHandler);
