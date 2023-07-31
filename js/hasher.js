@@ -1,5 +1,5 @@
 const hashes = {
-    "/":
+    "/feedback":
     {
         template: "/pages/hashes/feedback.html",
         title: "Whitepaper(s) on crossbanc | Questions",
@@ -30,7 +30,7 @@ const hashes = {
 const hashlocationHandler = async () => {
     var hashlocation = window.location.hash.replace("#", "");   
     if (hashlocation == undefined || hashlocation == null || hashlocation.length == 0) {
-        hashlocation = "/"
+        hashlocation = "/feedback"
     }
     const hash = hashes[hashlocation];
     const hhtml = await fetch(hash.template).then((response) => response.text());
