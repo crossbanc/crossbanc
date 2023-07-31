@@ -1,12 +1,12 @@
 const hashes = {
-    interpretation: {
+    "/": {
         template: "/pages/hashes/interpretation.html",
         title: "Whitepaper(s) on crossbanc | Interpretation",
         description: "Defined terms used to communicate crossbanc.",
     },
     statements: {
         template: "/pages/hashes/statements.html",
-        title: "Whitepaper(s) on crossbanc | Problem statements",
+        title: "Whitepaper(s) on crossbanc | Questions Presented",
         description: "Problem Statement(s) perceived and expected to be solved by crossbanc.",
     },
     basis: {
@@ -25,7 +25,7 @@ const hashes = {
 const hashlocationHandler = async () => {
     var location = window.location.hash.replace("#", "");
     if (location.length == 0) {
-        location = interpretation;
+        location = "/";
     }
     const route = hashes[location] || hashes["404"];
     const html = await fetch(route.template).then((response) => response.text());
