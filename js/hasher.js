@@ -28,8 +28,9 @@ const hashes = {
 
 
 const hashlocationHandler = async () => {
-    var hashlocation = window.location.hash.replace("#", "");
-    if (hashlocation.length == 0) {
+    var hashlocation = window.location.hash.replace("#", "");   
+    if (hashlocation == undefined || hashlocation == null)
+    {
         hashlocation = "/";
     }
     const hash = hashes[hashlocation] || hashes["404"];
