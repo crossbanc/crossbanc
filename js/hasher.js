@@ -28,7 +28,7 @@ const hashes = {
 
 
 const hashlocationHandler = async () => {
-    const hashlocation = window.location.hash.replace("#", "");
+    var hashlocation = window.location.hash.replace("#", "");
     if (hashlocation.length == 0) {
         hashlocation = "/";
     }
