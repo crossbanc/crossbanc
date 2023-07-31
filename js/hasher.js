@@ -1,7 +1,7 @@
 const hashes = {
     "/":
     {
-        template: "/pages/reachus.html",
+        template: "/pages/hashes/reachus.html",
         title: "Whitepaper(s) on crossbanc | Questions",
         description: "Reach out to crossbanc with your questions.",
     },
@@ -35,7 +35,7 @@ const hashlocationHandler = async () => {
     const hash = hashes[hashlocation] || hashes["404"];
     const hhtml = await fetch(hash.template).then((response) => response.text());
         
-    document.getElementById("content").innerHTML = hhtml;
+    document.getElementById("hashcontent").innerHTML = hhtml;
     document.title = hash.title;
     document
         .querySelector('meta[name="description"]')
