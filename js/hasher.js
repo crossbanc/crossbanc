@@ -9,7 +9,7 @@ document.addEventListener("click", (e) => {
 
 
 const hashes = {
-    "/feedback": {
+    "/": {
         template: "/pages/feedback.html",
         title: "Whitepaper(s) on crossbanc | Questions",
         description: "Reach out to crossbanc with your questions.",
@@ -48,7 +48,7 @@ const route2 = (event) => {
 const hashlocationHandler = async () => {
     var location = window.location.pathname; 
     if (location.length == 0) {
-        location = "/feedback";
+        location = "/";
     }
     const hroute = hashes[location];
     const hhtml = await fetch(hroute.template).then((response) => response.text());
