@@ -1,7 +1,7 @@
 const hashes = {
     "/":
     {
-        template: "/pages/hashes/reachus.html",
+        template: "/pages/hashes/feedback.html",
         title: "Whitepaper(s) on crossbanc | Questions",
         description: "Reach out to crossbanc with your questions.",
     },
