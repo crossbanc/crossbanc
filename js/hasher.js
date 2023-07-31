@@ -30,12 +30,12 @@ const hashes = {
 const hashlocationHandler = async () => {
     var hashlocation = window.location.hash.replace("#", "");   
     if (hashlocation == undefined || hashlocation == null || hashlocation.length == 0) {
-        hashlocation = interpretation
+        hashlocation = "feedback"
     }
     const hash = hashes[hashlocation];
     const hhtml = await fetch(hash.template).then((response) => response.text());
         
-    document.getElementById("content").innerHTML = hhtml;
+    document.getElementById("hcontent").innerHTML = hhtml;
     document.title = hash.title;
     document
         .querySelector('meta[name="description"]')
