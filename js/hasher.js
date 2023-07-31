@@ -11,27 +11,27 @@ document.addEventListener("click", (e) => {
 const hashes = {
     "/whitepaper": {
         template: "/pages/feedback.html",
-        title: "Whitepaper(s) on crossbanc | Questions",
+        title: "Questions | Whitepaper(s) on crossbanc",
         description: "Reach out to crossbanc with your questions.",
     },
     "/whitepaper/interpretation": {
         template: "/pages/interpretation.html",
-        title: "Whitepaper(s) on crossbanc | Interpretation",
+        title: "Interpretation | Whitepaper(s) on crossbanc",
         description: "Defined terms used to communicate crossbanc.",
     },
     "/whitepaper/statements": {
         template: "/pages/statements.html",
-        title: "Whitepaper(s) on crossbanc | Questions Presented",
+        title: "Questions Presented | Whitepaper(s) on crossbanc",
         description: "Problem Statement(s) perceived and expected to be solved by crossbanc.",
     },
     "/whitepaper/basis": {
         template: "/pages/basis.html",
-        title: "Whitepaper(s) on crossbanc | Basis for conclusions",
+        title: "Basis for conclusions | Whitepaper(s) on crossbanc",
         description: "Basis for conclusions on technology adoptions to the benefit of crossbanc stakeholders.",
     },
     "/whitepaper/disclaimer": {
         template: "/pages/disclaimer.html",
-        title: "Whitepaper(s) on crossbanc | Disclaimer",
+        title: "Disclaimer | Whitepaper(s) on crossbanc",
         description: "Disclaimer in whitepaper(s) regarding crossbanc.",
     },
 };
