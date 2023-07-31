@@ -1,6 +1,6 @@
 document.addEventListener("click", (e) => {
     const { target } = e;
-    if (!target.matches("hashnav a")) {
+    if (!target.matches("div a")) {
         return;
     }
     e.preventDefault();
