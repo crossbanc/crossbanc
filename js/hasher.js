@@ -1,36 +1,41 @@
 const hashes = {
-    "/definations": {
-        template: "/pages/definations.html",
-        title: "",
-        description: "",
+    interpretation: {
+        template: "/pages/hashes/interpretation.html",
+        title: "Whitepaper(s) on crossbanc | Interpretation",
+        description: "Defined terms used to communicate crossbanc.",
     },
-    "/statements": {
-        template: "/pages/statements.html",
-        title: "",
-        description: "",
+    statements: {
+        template: "/pages/hashes/statements.html",
+        title: "Whitepaper(s) on crossbanc | Problem statements",
+        description: "Problem Statement(s) perceived and expected to be solved by crossbanc.",
     },
-    "/disclaimer": {
-        template: "/pages/disclaimer.html",
-        title: "",
-        description: "",
+    basis: {
+        template: "/pages/hashes/basis.html",
+        title: "Whitepaper(s) on crossbanc | Basis for conclusions",
+        description: "Basis for conclusions on technology adoptions to the benefit of crossbanc stakeholders.",
+    },
+    disclaimer: {
+        template: "/pages/hashes/disclaimer.html",
+        title: "Whitepaper(s) on crossbanc | Disclaimer",
+        description: "Disclaimer in whitepaper(s) regarding crossbanc.",
     },
 };
 
 
-const locationHandler = async () => {
+const hashlocationHandler = async () => {
     var location = window.location.hash.replace("#", "");
     if (location.length == 0) {
-        location = "/definations";
+        location = "#interpretation";
     }
     const route = hashes[location] || hashes["404"];
     const html = await fetch(route.template).then((response) => response.text());
-    document.getElementById("content").innerHTML = html;
+    document.getElementById("hashcontent").innerHTML = html;
     document.title = route.title;
     document
         .querySelector('meta[name="description"]')
-        .setAttribute("content", route.description);
+        .setAttribute("hashcontent", route.description);
 };
 
-window.addEventListener("hashchange", locationHandler);
-locationHandler();
+window.addEventListener("hashchange", hashlocationHandler);
+hashlocationHandler();
 
