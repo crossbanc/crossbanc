@@ -46,11 +46,11 @@ const route2 = (event) => {
 
 
 const hashlocationHandler = async () => {
-    var hlocation = window.location.pathname; 
-    if (hlocation.length == 0) {
-        hlocation = "/feedback";
+    var location = window.location.pathname; 
+    if (location.length == 0) {
+        location = "/feedback";
     }
-    const hroute = hashes[hlocation];
+    const hroute = hashes[location];
     const hhtml = await fetch(hroute.template).then((response) => response.text());
     document.getElementById("hcontent").innerHTML = hhtml;
     document.title = hroute.title;
