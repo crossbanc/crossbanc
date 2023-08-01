@@ -21,19 +21,6 @@
                 min-height: 100vh;
             }
 
-            div
-            {
-                max-width: 100%;
-                max-height: 100%;
-            }
-
-            iframe {
-                overflow: hidden; 
-                width: 640px;
-                height: 1280px;
-                padding-right: 1rem;
-            }
-
             table {
                 table-layout: fixed;
                 width: 100%;
@@ -76,6 +63,24 @@
                 max-width:256px;
                 width:100%;
                 height: auto;
+            }
+
+            .container {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                padding-top: 200%; /* 640:1280 Aspect Ratio (divide 1280 by 640 = 2) */
+            }
+
+            .iframe-form
+            {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
             }
 
             .box 
