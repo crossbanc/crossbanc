@@ -46,7 +46,7 @@ const route2 = (event) => {
 
 
 const hashlocationHandler = async () => {
-    var location = window.location.pathname; 
+    const location = window.location.pathname; 
     if (location.length == 0) {
         location = "/whitepaper";
     }

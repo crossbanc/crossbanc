@@ -36,7 +36,7 @@ const route = (event) => {
 
 
 const locationHandler = async () => {
-    var location = window.location.pathname; 
+    const location = window.location.pathname; 
     if (location.length == 0) {
         location = "/";
     }
