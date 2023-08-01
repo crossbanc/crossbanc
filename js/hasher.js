@@ -9,6 +9,11 @@ document.addEventListener("click", (e) => {
 
 
 const hashes = {
+    404: {
+        template: "/pages/404.html",
+        title: "404",
+        description: "Page not found on crossbanc",
+    },
     "/whitepaper": {
         template: "/pages/feedback.html",
         title: "Whitepaper on crossbanc",
@@ -50,7 +55,7 @@ const hashlocationHandler = async () => {
     if (location.length == 0) {
         location = "/whitepaper";
     }
-    const hroute = hashes[location];
+    const hroute = hashes[location] || hashes["404"];
     const hhtml = await fetch(hroute.template).then((response) => response.text());
     document.getElementById("hcontent").innerHTML = hhtml;
     document.title = hroute.title;

@@ -9,6 +9,11 @@ document.addEventListener("click", (e) => {
 
 
 const routes = {
+    404: {
+        template: "/pages/404.html",
+        title: "404",
+        description: "Page not found on crossbanc",
+    },
     "/": {
         template: "/pages/index.html",
         title: "Introducing crossbanc",
@@ -40,7 +45,7 @@ const locationHandler = async () => {
     if (location.length == 0) {
         location = "/";
     }
-    const route = routes[location];
+    const route = routes[location] || routes["404"];
     const html = await fetch(route.template).then((response) => response.text());
     document.getElementById("content").innerHTML = html;
     document.title = route.title;
