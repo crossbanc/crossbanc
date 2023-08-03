@@ -42,7 +42,7 @@ const route = (event) => {
 
 const locationHandler = async () => {
     const location = window.location.pathname; 
-    if (location.length == 0) {
+    if (location.length == 0 || location == "" || location == null) {
         location = "/";
     }
     const route = routes[location] || routes["404"];
