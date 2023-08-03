@@ -15,11 +15,6 @@ const hashes = {
         description: "Page not found on crossbanc",
     },
     "/whitepaper": {
-        template: "/pages/feedback.html",
-        title: "Whitepaper on crossbanc",
-        description: "Technical discussion(s) on crossbanc. Reach out to crossbanc with your questions.",
-    },
-    "/whitepaper/interpretation": {
         template: "/pages/interpretation.html",
         title: "Interpretation | Whitepaper on crossbanc",
         description: "Defined terms used to communicate crossbanc.",
@@ -38,6 +33,11 @@ const hashes = {
         template: "/pages/disclaimer.html",
         title: "Disclaimer | Whitepaper on crossbanc",
         description: "Disclaimer in whitepaper regarding crossbanc.",
+    },
+    "/whitepaper/contactus": {
+        template: "/pages/feedback.html",
+        title: "Whitepaper on crossbanc",
+        description: "Technical discussion(s) on crossbanc. Reach out to crossbanc with your questions.",
     },
 };
 
