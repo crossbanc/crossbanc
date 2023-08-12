@@ -9,11 +9,6 @@ document.addEventListener("click", (e) => {
 
 
 const hashes = {
-    404: {
-        template: "/pages/404.html",
-        title: "404",
-        description: "Page not found on crossbanc",
-    },
     "/whitepaper": {
         template: "/pages/interpretation.html",
         title: "Interpretation | Whitepaper on crossbanc",
@@ -46,11 +41,11 @@ const route2 = (event) => {
 
 
 const hashlocationHandler = async () => {
-    var hlocation = window.location.pathname;
+    const hlocation = window.location.pathname;
     if (hlocation.length == 0 || hlocation == "" || hlocation == null) {
         hlocation = "/whitepaper";
     }
-    const hroute = hashes[hlocation] || hashes["404"];
+    const hroute = hashes[hlocation];
     const hhtml = await fetch(hroute.template).then((response) => response.text());
     document.getElementById("hcontent").innerHTML = hhtml;
     document.title = hroute.title;
