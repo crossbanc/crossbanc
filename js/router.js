@@ -20,7 +20,7 @@ const routes = {
         description: "See features of crossbanc on this page.",
     },
     "/whitepaper": {
-        template: "/pages/whitepaper.html",
+        template: "/whitepaper.html",
         title: "Whitepaper on crossbanc",
         description: "Technical discussion(s) on crossbanc. Reach out to crossbanc with your questions.",
     },
