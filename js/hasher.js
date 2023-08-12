@@ -34,11 +34,6 @@ const hashes = {
         title: "Disclaimer | Whitepaper on crossbanc",
         description: "Disclaimer in whitepaper regarding crossbanc.",
     },
-    "/whitepaper/contactus": {
-        template: "/pages/feedback.html",
-        title: "Whitepaper on crossbanc",
-        description: "Technical discussion(s) on crossbanc. Reach out to crossbanc with your questions.",
-    },
 };
 
 
