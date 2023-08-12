@@ -15,12 +15,12 @@ const routes = {
         description: "crossbanc is a financial information services application with broad coverage of multiple asset classes.",
     },
     "/features": {
-        template: "/features.html",
+        template: "/pages/features.html",
         title: "Features of crossbanc",
         description: "See features of crossbanc on this page.",
     },
     "/whitepaper": {
-        template: "/whitepaper.html",
+        template: "/pages/whitepaper.html",
         title: "Whitepaper on crossbanc",
         description: "Technical discussion(s) on crossbanc. Reach out to crossbanc with your questions.",
     },
