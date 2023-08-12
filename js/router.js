@@ -10,12 +10,12 @@ document.addEventListener("click", (e) => {
 
 const routes = {
     "/": {
-        template: "/pages/index.html",
+        template: "/pages/pr.html",
         title: "Introducing crossbanc",
         description: "crossbanc is a financial information services application with broad coverage of multiple asset classes.",
     },
     "/features": {
-        template: "/pages/features.html",
+        template: "/features.html",
         title: "Features of crossbanc",
         description: "See features of crossbanc on this page.",
     },
