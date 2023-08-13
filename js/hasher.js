@@ -55,7 +55,19 @@ const hashlocationHandler = async () => {
 };
 
 
-window.onpopstate = hashlocationHandler;
+const printfirst = async () => {
+    const flocation = "/whitepaper";
+    const froute = hashes[flocation];
+    const fhtml = await fetch(froute.template).then((response) => response.text());
+    document.getElementById("hcontent").innerHTML = fhtml;
+    document.title = froute.title;
+    document
+        .querySelector('meta[name="description"]')
+        .setAttribute("content", froute.description);
+};
+
+
+window.onpopstate = printfirst;
 window.route = route2;
 hashlocationHandler();
 
