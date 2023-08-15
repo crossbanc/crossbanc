@@ -69,5 +69,5 @@ const printfirst = async () => {
 
 window.onpopstate = printfirst;
 window.route = route2;
-hashlocationHandler();
+
 
