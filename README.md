@@ -4,7 +4,9 @@ Singapore, 20 August 2023.
 <br />
 <br />
 <p>
-crossbanc is a financial information services application. Thus, it provides information on financial instruments.
+crossbanc is a financial information services application. 
+<br />
+Thus, it provides information on financial instruments.
 <br />
 <br />
 This repository stores the web pages that provides information about the application. 
