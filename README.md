@@ -8,5 +8,5 @@ This repository stores the web pages that provides information about the applica
 The purpose of this repository is to provide access to inspect the use of cookies and to address any privacy concerns related to these web pages.
 </p>
 <p>
-You may view these web pages at [crossbanc.com .](https://crossbanc.com/)
+You may view these web pages at crossbanc.com (https://crossbanc.com/) .
 </p>
