@@ -6,10 +6,8 @@ Singapore, 20 August 2023.
 <p>
 crossbanc is an application that provides information on financial instruments. 
 <br />
-Thus, crossbanc provides information on financial instruments.
 <br />
-<br />
-This repository stores the web pages that provides information about the application. 
+This repository stores the web pages that provides finer information about crossbanc. 
 <br />
 The purpose of this repository is to provide access to inspect the use of cookies and to address any privacy concerns related to these web pages.
 </p>
