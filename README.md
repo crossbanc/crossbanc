@@ -1,10 +1,12 @@
-# Introducing crossbanc
+# crossbanc is a financial information services application.
 Singapore, 20 August 2023.
 <br />
 <br />
 <br />
 <p>
-In the 4Q of 2022, work on crossbanc, a financial information services application began.
-This repository stores the webpages that provides information about the application. 
-You may view these webpages at crossbanc.com .
+This repository stores the web pages that provides information about the application. 
+The purpose of this repository is to provide access to inspect the use of cookies and to address any privacy concerns related to these web pages.
+</p>
+<p>
+You may view these web pages at [crossbanc.com .](https://crossbanc.com/)
 </p>
