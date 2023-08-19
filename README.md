@@ -17,7 +17,8 @@ The purpose of this repository is to provide access to inspect the use of cookie
 <br />
 <p>
 To contact us for further information, interested individuals are advised to use the Typeform widget on these web pages.
-<br />Information concerning Typeform can be found at (https://www.typeform.com/) .
+<br />
+Information concerning Typeform can be found at (https://www.typeform.com/) .
 </p>
 
 <p>
