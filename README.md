@@ -25,4 +25,4 @@ You may view these web pages at crossbanc.com (https://crossbanc.com/) .
 </p>
 <br />
 <br />
-The Unix philosophy, originated by Ken Thompson, is a set of cultural norms and philosophical approaches to minimalist, modular software development.
+"The Unix philosophy, originated by Ken Thompson, is a set of cultural norms and philosophical approaches to minimalist, modular software development."
