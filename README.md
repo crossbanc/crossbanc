@@ -8,7 +8,7 @@ At crossbanc, we are creating a system that effectively conveys financial inform
 <br />
 We bring a factual and relevant perspective to investors and provide traders with convenience by simply being in their palms. 
 <br />
-As a result, this enables creators to discover proof, references, and understanding in their pursuit or unintended contribution to the popular notion of democratizing finance.
+As a result, this enables creators to discover proof, references, and understanding in their pursuit or unintended contribution towards the popular notion of democratizing finance.
 <br />
 </p>
 <br />
