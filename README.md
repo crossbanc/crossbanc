@@ -15,7 +15,7 @@ As a result, this enables creators to discover proof, references, and understand
 <p>
 This repository stores the web pages that provides historical and introductory information about crossbanc. 
 <br />
-Check out our new website to see how we have progress (https://crossbanc.com/) .
+Check out our new website to see how we have progress (https://crossbanc.com/) , what has changed and what we are up to next.
 </p>
 <br />
 <br />
